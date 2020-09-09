@@ -1,0 +1,9 @@
+<p>ngclassdemo works!</p>
+<div [ngStyle]="{'background-color':'red'}">Happy </div>
+<h4>NgStyle</h4>
+<ul *ngFor="let person of people">
+    <li [ngStyle]="{'color':getColor(person.country)}">
+        {{ person.name }}
+        {{ person.country }}
+    </li>
+</ul>

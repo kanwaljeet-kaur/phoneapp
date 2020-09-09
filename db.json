@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "rashmi",
+      "salary": "10000"
+    },
+    {
+      "name": "David",
+      "salary": "5000",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "firstName": "Kanwaljeet",
+      "lastName": "kaur",
+      "email": "kankaur123@gmail.com"
+    }
+  ]
+}
